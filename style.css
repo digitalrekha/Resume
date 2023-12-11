@@ -1,0 +1,249 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 155vh;
+    width: 60vw;
+    border: 1px solid rgb(10, 10, 10);
+    display: flex;
+}
+
+.left-box {
+    width: 40%;
+    min-height: 90vh;
+    margin: 15px;
+
+}
+
+.right-box {
+    width: 60%;
+    min-height: 100vh;
+    margin: 15px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px 0px;
+}
+
+.profile {
+    text-align: center;
+    background-color: #5271ff;
+
+}
+
+h2,
+h3 {
+    color: white;
+    position: relative;
+    font-weight: 500;
+    top: -15px;
+    line-height: .5;
+}
+
+.social-profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: -20px;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.github img {
+    height: 20px;
+    width: 20px;
+}
+
+.github p {
+    font-size: 13px;
+}
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.linkedin img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.linkedin p {
+    font-size: 13px;
+}
+
+.details {
+    background-color: #3c4240;
+    position: relative;
+    top: -25px;
+}
+
+.contact h4 {
+    color: white;
+    padding-top: 15px;
+    padding-left: 50px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.separation {
+    border: 1px solid white;
+    width: 200px;
+    margin: auto;
+    position: relative;
+    top: -15px;
+}
+
+.phone {
+    color: white;
+    padding-left: 70px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.num {
+    color: #6e6c65;
+    font-size: 13px;
+    padding-left: 70px;
+    position: relative;
+    top: -17px;
+}
+
+.email {
+    position: relative;
+    top: -25px;
+}
+
+.skills {
+    position: relative;
+    top: -45px;
+}
+
+.skill progress {
+    width: 170px;
+}
+
+.certificates {
+    position: relative;
+    top: -45px;
+}
+
+.certificate {
+    position: relative;
+    top: -50px;
+    line-height: 0.5;
+}
+
+.objective h2,
+.work h2, .project h2, .education h2{
+    color: #5271ff;
+    padding: 10px;
+}
+.work{
+    position: relative;
+    top: -15px;
+}
+
+.separation-dark {
+    border: 1px solid gray;
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    top: -30px;
+}
+
+.lorem {
+    color: #6e6c65;
+    padding: 0px 10px;
+    position: relative;
+    top: -30px;
+    font-size: 13px;
+}
+
+.role {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    top: -30px;
+    font-weight: 400;
+
+}
+
+.role-name {
+    display: flex;
+    gap: 200px;
+}
+
+.arrow img {
+    height: 15px;
+    width: 15px;
+    padding: 0px 10px;
+}
+
+.company {
+    padding-left: 45px;
+    position: relative;
+    top: -40px;
+
+}
+
+.company-p {
+    padding: 45px;
+    font-size: 13px;
+    color: #6e6c65;
+    position: relative;
+    top: -100px;
+}
+
+.role-2{
+    position: relative;
+    top: -120px;
+}
+.role-3 {
+    position: relative;
+    top: -240px;
+}
+.project{
+    position: relative;
+    top: -385px;
+}
+.project-2{
+    position: relative;
+    top: -120px;
+}
+.section{
+    position: relative;
+    top: -635px;
+}
+.icon{
+height: 25px;
+width: 25px;
+margin-top: 10px;
+}
+.ic{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
